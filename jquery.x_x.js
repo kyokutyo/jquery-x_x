@@ -15,9 +15,9 @@
             $this = $(this);
             def_color = $this.css('color');
             timer = setInterval(function() {
-              var num = Math.floor(Math.random() * defaults.colors.length);
-              $this.css('color', defaults.colors[num]);
-            }, defaults.interval);
+              var num = Math.floor(Math.random() * options.colors.length);
+              $this.css('color', options.colors[num]);
+            }, options.interval);
             $this.css('color', 'green');
           });
           $(this).on('mouseout', function() {
