@@ -18,11 +18,10 @@
               var num = Math.floor(Math.random() * options.colors.length);
               $this.css('color', options.colors[num]);
             }, options.interval);
-            $this.css('color', 'green');
           });
           $(this).on('mouseout', function() {
-            $(this).css('color', def_color);
             clearInterval(timer);
+            $(this).css('color', def_color);
           });
         });
     };
