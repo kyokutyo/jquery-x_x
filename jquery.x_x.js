@@ -1,5 +1,5 @@
 ;(function($, undefined) {
-    $.fn.x_x = function(config) {
+    $.fn.x_x = function(options) {
         var defaults = {
             colors: [
                 '#f09', '#f03', '#600',
@@ -8,7 +8,7 @@
             ],
             interval: 50
         };
-        var opts = $.extend(defaults, config);
+        var opts = $.extend(defaults, options);
         return this.each(function() {
           var def_color, timer;
           $(this).on('mouseover', function() {
