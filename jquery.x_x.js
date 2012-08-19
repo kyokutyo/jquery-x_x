@@ -1,4 +1,4 @@
-(function($){
+;(function($) {
     $.fn.x_x = function(config) {
         var defaults = {
             colors: [
