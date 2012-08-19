@@ -8,16 +8,16 @@
             ],
             interval: 50
         };
-        var options = $.extend(defaults, config);
+        var opts = $.extend(defaults, config);
         return this.each(function() {
           var def_color, timer;
           $(this).on('mouseover', function() {
             $this = $(this);
             def_color = $this.css('color');
             timer = setInterval(function() {
-              var num = Math.floor(Math.random() * options.colors.length);
-              $this.css('color', options.colors[num]);
-            }, options.interval);
+              var num = Math.floor(Math.random() * opts.colors.length);
+              $this.css('color', opts.colors[num]);
+            }, opts.interval);
           });
           $(this).on('mouseout', function() {
             clearInterval(timer);
