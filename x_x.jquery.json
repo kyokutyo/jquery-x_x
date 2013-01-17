@@ -1,0 +1,29 @@
+{
+	"name": "x_x",
+	"title": "jquery.x_x.js",
+	"description": "A jQuery plugin privides blink link",
+	"version": "0.0.1",
+	"homepage": "https://github.com/kyokutyo/jquery.dfp.js",
+	"author": {
+		"name": "kyokutyo",
+		"email": "kyokutyo@gmail.com",
+		"url": "http://kyokutyo.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/kyokutyo/jquery-x_x.git"
+	},
+	"bugs": {
+		"url": "https://github.com/kyokutyo/jquery-x_x/issues"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "https://github.com/kyokutyo/jquery-x_x/blob/master/MIT-License.txt"
+		}
+	],
+	"dependencies": {
+		"jquery": ">= 1.6"
+	},
+	"keywords": ["blink"]
+}
