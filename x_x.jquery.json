@@ -1,9 +1,9 @@
 {
 	"name": "x_x",
-	"title": "jquery.x_x.js",
+	"title": "jQuery.x_x.js",
 	"description": "A jQuery plugin privides blink link",
 	"version": "0.0.1",
-	"homepage": "https://github.com/kyokutyo/jquery-x_x",
+	"homepage": "http://kyokutyo.com/jquery-x_x/",
 	"author": {
 		"name": "kyokutyo",
 		"email": "kyokutyo@gmail.com",
