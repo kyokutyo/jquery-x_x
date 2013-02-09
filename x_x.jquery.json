@@ -2,12 +2,12 @@
 	"name": "x_x",
 	"title": "jQuery x_x",
 	"description": "A jQuery plugin provides blink link.",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"homepage": "http://kyokutyo.com/jquery-x_x/",
 	"author": {
 		"name": "kyokutyo",
 		"email": "kyokutyo@gmail.com",
-		"url": "http://kyokutyo.com/"
+		"url": "http://kyokutyo.com"
 	},
 	"repository": {
 		"type": "git",
